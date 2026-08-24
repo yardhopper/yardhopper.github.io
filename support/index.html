@@ -1,30 +1,37 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Support — Yard Hopper</title>
-<meta name="description" content="Get help with Yard Hopper: contact us or browse frequently asked questions." />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="../style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — The Yard Hopper</title>
+  <meta name="description" content="Get help with The Yard Hopper: contact us or browse frequently asked questions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <div class="wrap">
+
   <a class="brand" href="../">
     <svg width="28" height="28" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="6" y="42" width="52" height="12" rx="6" fill="#8BC34A" />
-      <circle cx="16" cy="50" r="10" fill="#1B2A1E" />
-      <circle cx="16" cy="50" r="4" fill="#FFFFFF" />
-      <circle cx="48" cy="51" r="7" fill="#1B2A1E" />
-      <circle cx="48" cy="51" r="2.8" fill="#FFFFFF" />
-      <rect x="12" y="26" width="40" height="18" rx="8" fill="#2F7A3E" />
-      <rect x="16" y="8" width="16" height="20" rx="7" fill="#1F5C2C" />
-      <circle cx="50" cy="31" r="3.2" fill="#8BC34A" />
+      <rect x="6" y="42" width="52" height="12" rx="6" fill="#8BC34A"/>
+      <circle cx="16" cy="50" r="10" fill="#1B2A1E"/>
+      <circle cx="16" cy="50" r="4" fill="#FFFFFF"/>
+      <circle cx="48" cy="51" r="7" fill="#1B2A1E"/>
+      <circle cx="48" cy="51" r="2.8" fill="#FFFFFF"/>
+      <rect x="12" y="26" width="40" height="18" rx="8" fill="#2F7A3E"/>
+      <rect x="16" y="8" width="16" height="20" rx="7" fill="#1F5C2C"/>
+      <circle cx="50" cy="31" r="3.2" fill="#8BC34A"/>
     </svg>
-    <span>Yard Hopper</span>
+    <span>The Yard Hopper</span>
   </a>
+
+  <nav>
+    <a href="./">Support</a>
+    <a href="../privacy">Privacy Policy</a>
+    <a href="../terms">Terms of Service</a>
+  </nav>
 
   <h1>Support</h1>
   <p class="subtitle">Answers to common questions, and how to reach us.</p>
@@ -33,8 +40,8 @@
     <div class="card">
       <h2>Video walkthrough</h2>
       <p>Watch our step-by-step walkthrough covering setup, adding equipment, customer management, logging jobs with photos, recurring visits, and invoicing.</p>
-      <div style="position: relative; width: 100%; border-radius: 12px; overflow: hidden; background: #000; margin-top: 14px;">
-        <video controls muted preload="metadata" width="100%" style="display: block; width: 100%; height: auto; border-radius: 12px;">
+      <div class="video-wrap">
+        <video controls muted preload="metadata" width="100%">
           <source src="../assets/getting-started-walkthrough.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -56,101 +63,75 @@
 
       <details>
         <summary>How do I set my default hourly rate and currency?</summary>
-        <p>Go to Settings and set your default hourly rate and preferred currency. These pre-fill every new job automatically, saving you time in the field.</p>
+        <p>Go to <strong>Settings</strong> and set your default hourly rate and preferred currency. These pre-fill every new job automatically, saving time in the field.</p>
       </details>
 
       <details>
         <summary>How do I change the app's language?</summary>
-        <p>Go to Settings → Language and pick from the list, or choose "System default" to follow your device's language automatically.</p>
+        <p>Go to <strong>Settings → Language</strong> and pick from the list, or choose "System default" to follow your device's language automatically.</p>
       </details>
 
       <details>
         <summary>How do I add a new customer?</summary>
-        <p>Open New Job, tap the customer field, and choose "Add New Customer." You only need to do this once — they'll show up every time after that. For fuller customer details (address, email, phone, default rate), manage customers from the Invoices tab.</p>
+        <p>Open <strong>New Job</strong>, tap the customer field, and choose "Add New Customer." You only need to do this once — they'll appear in every future job. For fuller details (address, email, phone, default rate) manage customers from the Invoices tab.</p>
       </details>
 
       <details>
         <summary>How do I add a piece of equipment?</summary>
-        <p>Go to the Equipment &amp; Maintenance tab and add each piece of equipment you own — mower, trimmer, blower, and so on. Yard Hopper automatically tracks blade and engine hours as you log jobs, and reminds you when service is due.</p>
+        <p>Go to the <strong>Equipment &amp; Maintenance</strong> tab and tap +. Add your ride-on mowers, push mowers, string trimmers, hedge trimmers, leaf blowers, and other tools. The Yard Hopper tracks blade hours, oil change intervals, and engine hours, alerting you when service is due.</p>
       </details>
 
       <details>
-        <summary>How do I take a piece of equipment out of service?</summary>
-        <p>On the Equipment &amp; Maintenance screen, tap "Mark unavailable" on that equipment (optionally add a reason). Unavailable equipment won't show up when logging a new job until you mark it available again.</p>
+        <summary>How do I track blade sharpening and oil change intervals?</summary>
+        <p>When adding or editing equipment, set the <strong>service intervals</strong> (blade hours, oil change hours). After each service, log a <em>Blade Sharpening</em> or <em>Oil Change</em> event to reset the counters automatically.</p>
       </details>
 
       <details>
-        <summary>How do I log a job?</summary>
-        <p>Open New Job, pick your customer, choose the date and activity type, enter your hours, and optionally capture your location with one tap. Select any equipment used and hit Save.</p>
+        <summary>How do I log a lawn care job?</summary>
+        <p>Tap <strong>New Job</strong>, select the customer and date, choose activities (mowing, trimming, edging, pruning, etc.), enter hours, and optionally add before/after photos. Tap Save — the job is available for invoicing immediately.</p>
       </details>
 
       <details>
-        <summary>Can I log more than one activity for the same visit?</summary>
-        <p>Yes. On New Job, the Activities field lets you select several activities (mowing, fertilizing, hedge trimming, and more), or type in a custom one — all billed together as a single visit with one hours/rate total.</p>
+        <summary>How do I set up recurring visits?</summary>
+        <p>After creating a job, tap <strong>Make Recurring</strong> to set weekly, bi-weekly, or monthly visit schedules. The app will pre-populate your calendar and remind you on the day.</p>
       </details>
 
       <details>
-        <summary>Can I attach photos to a job or expense?</summary>
-        <p>Yes. On New Job you can attach before/after photos, which are automatically included as proof of work on that job's invoice PDF. On New Expense you can attach a photo of the receipt. Photos are stored only on your device — they're not included in Cloud sync or in an exported backup. You can see how much space they're using, or clear them all, from Settings → Backup.</p>
+        <summary>How do I generate and send a PDF invoice?</summary>
+        <p>Open the <strong>Invoices</strong> tab, create or find the invoice, then tap <strong>Export PDF</strong>. Share it directly via email, AirDrop, or any app on your device.</p>
       </details>
 
       <details>
-        <summary>How do I track an expense?</summary>
-        <p>Open New Expense, pick a category, enter the amount, and optionally link it to a specific piece of equipment so your reports stay accurate.</p>
+        <summary>How do I optimise my daily route?</summary>
+        <p>In the <strong>Route</strong> tab, add your stops for the day and tap <strong>Optimise Route</strong> to reorder by shortest drive time. Each stop opens Maps navigation with one tap.</p>
       </details>
 
       <details>
-        <summary>How do recurring visits work?</summary>
-        <p>Open the Schedule tab and create a Job Template for a customer — pick a frequency (weekly, biweekly, monthly, quarterly, or yearly) and Yard Hopper keeps a calendar of upcoming visits for you. Tap any visit to log it as a real job, move it to a different date, skip it just once, or edit the template to change the pattern going forward. On a busy day, turn on "Route order" to sort that day's visits by distance from each other. The free plan includes 1 recurring visit; Yard Hopper Pro unlocks unlimited recurring visits.</p>
+        <summary>What does The Yard Hopper Pro include?</summary>
+        <p>Pro unlocks unlimited jobs and customers, PDF invoice generation, route optimisation, equipment maintenance tracking with automatic hour resets, photo attachments, expense tracking, profit &amp; loss reports, and Household Cloud Sync across devices.</p>
       </details>
 
       <details>
-        <summary>How do I create and send an invoice?</summary>
-        <p>Go to Invoices, pick a customer, then select their unbilled jobs (or add a line item manually). Tap "Create invoice," then use Email, Print, or Export PDF to send it.</p>
+        <summary>How do I restore my purchase on a new device?</summary>
+        <p>Open the app, go to <strong>Settings → Restore Purchases</strong>. Make sure you're signed in with the same Apple ID used for the original purchase.</p>
       </details>
 
       <details>
-        <summary>How are recurring invoices different from recurring visits?</summary>
-        <p>Recurring visits (Schedule tab) generate upcoming jobs to do. Recurring invoices (Invoices tab) are a separate, optional pattern with their own saved line items and frequency — when one is due, it appears under "Due templates" with a Generate button. If you log a scheduled visit for a customer who also has an active recurring invoice template, Yard Hopper will offer to add that job onto the next invoice.</p>
+        <summary>Is my data backed up?</summary>
+        <p>All data is stored locally on your device (offline-first). Enable <strong>Household Cloud Sync</strong> (Pro feature) to sync across multiple devices. We also recommend enabling iCloud backup on your iPhone so data is included in Apple's standard device backup.</p>
       </details>
 
-      <details>
-        <summary>How do I run a report?</summary>
-        <p>Go to Reports, select a date range, and see your income, expenses, and net balance at a glance. Tap Print or Export PDF to save or share your records. Reports is available on Yard Hopper Pro.</p>
-      </details>
-
-      <details>
-        <summary>How do I back up or restore my data?</summary>
-        <p>Go to Settings → Backup → "Export data" to save a backup file you can store or share. Use "Import data" on the same or a different device to restore from a backup file. Importing replaces everything currently on that device.</p>
-      </details>
-
-      <details>
-        <summary>How do I sync my data across devices?</summary>
-        <p>Go to Settings → Cloud sync → "Set up sync on this device." This gives you a short code. On your other device, open Settings → Cloud sync and enter that code under "Join an existing household by code." Both devices will then share the same jobs, customers, expenses, equipment, and invoices. If a device ever falls out of sync, Settings will offer to relink it.</p>
-      </details>
-
-      <details>
-        <summary>Where can I find my sync code again?</summary>
-        <p>On any device that's already linked, open Settings → Cloud sync — the code is shown there so you can share it with another device at any time.</p>
-      </details>
-
-      <details>
-        <summary>What's included in the free plan, and what does Pro unlock?</summary>
-        <p>Yard Hopper already includes GPS route optimization, before/after photo proof, and equipment service tracking — completely free. What's capped on the free plan is 5 jobs, 5 customers, 25 invoices, and 1 recurring visit, and Reports requires Pro. Upgrading to Yard Hopper Pro removes all of those limits and adds Cloud sync across your devices.</p>
-      </details>
-
-      <details>
-        <summary>Is my data private?</summary>
-        <p>By default, everything stays on your device. If you turn on Cloud sync, your data is also stored with our sync provider so your devices can share it. See our <a href="../privacy/">Privacy Policy</a> for full details.</p>
-      </details>
     </div>
   </section>
 
-  <div class="footer-nav">
-    <a href="../">Home</a>
-    <a href="../privacy/">Privacy Policy</a>
-    <a href="mailto:contact@beltov.dk">contact@beltov.dk</a>
-  </div>
 </div>
+
+<footer>
+  &copy; The Yard Hopper. All rights reserved. &nbsp;|&nbsp;
+  <a href="../privacy">Privacy Policy</a> &nbsp;|&nbsp;
+  <a href="../terms">Terms of Service</a> &nbsp;|&nbsp;
+  <a href="mailto:contact@beltov.dk">contact@beltov.dk</a>
+</footer>
+
 </body>
 </html>
